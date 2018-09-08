@@ -1,0 +1,124 @@
+div.allof>div.new>a{
+    float: right;
+    color:#4f4f4f;
+    margin: 0 10px;
+}
+div.allof>div.new>a:hover{
+    border-bottom: 1px solid #4f4f4f;
+}
+div.allof>div.new>:nth-child(1)>em{
+    color:#f31a61;
+}
+div.allof>div.new>a>em{
+    color:#4ea0e6;
+}
+/*图片部分*/
+.allseries{
+    margin: 20px 0px ;
+    height: 200px;
+}
+.allseries-list>li{
+    border-top:1px solid #dddddd;
+    width: 190px;
+    float:left;
+    height: 130px;
+    overflow: hidden;
+}
+.allseries-list>li>a>p{
+    margin: 10px 0 ;
+    text-align: center;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:20px;
+    color:#000;
+}
+
+.allseries-list>li>a>:nth-child(3){
+    color:#fe7e00;
+    font-size:18px;
+}
+.allseries-list>:nth-child(1):hover{
+    border-top:10px solid #dc504f;
+}
+.allseries-list>:nth-child(2):hover{
+    border-top:10px solid #4ea0e6;
+}
+.allseries-list>:nth-child(3):hover{
+    border-top:10px solid #aaf;
+}
+.allseries-list>:nth-child(4):hover{
+    border-top:10px solid #ffa;
+}
+.allseries-list>:nth-child(5):hover{
+    border-top:10px solid #445894;
+}
+.allseries-list>:nth-child(6):hover{
+    border-top:10px solid #94c9c8;
+}
+.allseries-list>:not(:last-child){
+    border-right:10px solid #dddddd;
+    border-bottom: 10px solid #dddddd;
+}
+
+/********************************图片部分*****************************/
+.yplist>li>a{
+    width:284px;
+    float: left;
+    margin: 11px 8px ;
+    position: relative;
+    overflow: hidden;
+}
+.yplist>li>a.my-small-1>img{
+    width:275px;
+    height:415px;
+    border:4px solid #707070;
+}
+.yplist>li>a.my-small-1>p{
+    font-size:16px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px dashed #d6d6d6;
+    color:#a4a4a4;
+}
+/**************************遮罩层部分*******************************/
+.my-small-1 .my-mask {
+    position: absolute;
+    bottom: 437px ;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    transition: all .5s linear;
+}
+.my-small-1:hover .my-mask {
+    bottom: 0;
+}
+/************************分页条***************************************/
+.newpage{
+  height: 100px ;
+}
+.newpage>a{
+    text-align: center;
+    margin: 25px -356px 45px 360px  ;
+    font-size: 20px ;
+    float: left;
+    color:#707070;
+    padding: 10px 0 0 0;
+    width: 90px ;
+}
+.newpage>a:hover{
+    color:#dc504f;
+    border-top: 2px solid #333333;
+}
+/***************底部文字***************/
+.NEW_tip{
+    margin: 10px 0;
+    height: 140px ;
+}
+.NEW_tip>span{
+    font-size: 15px ;
+    border: 1px solid red;
+    width: 500px ;
+}
+.NEW_tip>ul{
+    float:left;
+}

@@ -1,0 +1,83 @@
+/************footer1******************/
+div.foot-main{
+	border-top:1px solid #ddd;
+	margin-bottom:6px;
+}
+div.foot{
+	width:100%;
+	height:200px;	
+	background-color:#f1f1f1;
+	margin:0 auto;
+	margin-top:50px;
+}
+div.foot>div.foot-left{
+	font-size:16px;
+	border:1px solid #ddd;
+	width:300px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	margin-top:85px;
+}
+div.foot>div.foot-left>a{
+	color:#000;
+}
+div.foot>div.foot-left>a:hover{
+	color:#fe7200;
+}
+div.foot>div.foot-left:hover{
+	border:1px solid #A1B9CF;
+}
+div.foot div.foot-right{
+	font-size:17px;
+    color:#A1B9CF;
+	margin:30px 100px;
+}
+div.foot div.foot-right div p{
+	font-size:30px;
+	margin-top:20px;
+	margin-left:20px;
+}
+div.foot div.foot-right input{
+	width:242px;
+	height:30px;
+	border-radius:7px;
+}
+/****************footer2*********************/
+div.foot02> div > ul{
+	float:left;
+	margin:59px 14px;
+	font-size:13px;
+}
+div.foot02> div > ul > li:not(:first-child) {
+	width:210px;
+	height:35px;
+	border-bottom:1px dotted #4f4f4f;
+	line-height:35px;
+}
+div.foot02>div>ul:first-child>li{
+	border-bottom:0;
+}
+div.foot02> div > ul > li > a{
+	color:#707070;
+}
+div.foot02> div > ul > li > a:hover{
+	color:#dc504f;
+}
+div.foot02{
+	background:#d7d7d7;
+	height:315px;
+}
+/****************foot3**********************/
+div.foot03{
+	background:#cbcbcb;
+	height:200px;
+	margin-top:3px;
+}
+div.foot03>ul>li{
+	padding:16px;
+	text-align:center;
+}
+div.foot03>ul>li>h3{
+	margin:0px 0px 12px -876px;
+}

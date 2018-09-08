@@ -1,0 +1,19 @@
+/*******文字部分*********/
+.brand-text>p{
+margin:23px 416px ;
+}
+.brand-text>i{
+    color:red;
+    font-size:14px;
+}
+.brand-text>span{
+    font-size:16px ;
+}
+.brand-text>h5{
+    margin:15px 0px ;
+}
+/*****图片部分******/
+.brand-img>ul>li{
+    margin: -1px 0;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/brand.css"/>
+</head>
+<body>
+<header id="header"></header>
+    <div>
+        <div  class="brand-text">
+            <p><img src="img/bg100.png"/></p>
+            <i>重要信息：</i>
+            <span style="line-height: 30px">韩国IU视觉隶属于上海茜腾摄影服务有限公司。    上海IU婚纱摄影是目前在口碑和信誉度上极高的优质单位，吸引了不少的用户和消费者前来参观和拍照。这里对于客户不仅有着专业的团队全程保驾护航，同时也会由服务人员，和客户进行沟通和了解，在明确心意和要求之后，合理的推荐多重套餐和拍摄风格上的定位，确保在婚纱摄影的拍摄期间，得以顺利进行。</span>
+            <h5>详情请咨询全国统一客服热线：400-878-0555</h5>
+        </div>
+        <div  class="brand-img">
+            <ul>
+                <li><img src="img/韩国IUVISION介绍01.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍02.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍03.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍04.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍05.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍06.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍07.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍08.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍09.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍10.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍11.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍12.jpg"/></li>
+                <li><img src="img/韩国IUVISION介绍13.jpg"/></li>
+            </ul>
+        </div>
+    </div>
+<footer id="footer"></footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script>
+    $.ajax({
+        type:"get",
+        url:"header.html",
+        success:function(data){
+            $("#header").html(data);
+        }
+    })
+</script>
+<script>
+    $.ajax({
+        type:"get",
+        url:"footer.html",
+        success:function(data){
+            $("#footer").html(data);
+        }
+    })
+</script>
+</body>
+</html>
